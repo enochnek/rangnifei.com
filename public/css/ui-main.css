@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	outline: none;
+	background-position: center;
+	background-size: contain;
+	word-break: break-all;
+}
+body {
+	background-color: #FFF;
+	font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+div, ul, li, input { box-sizing: border-box; }
+a {
+	color: #333;
+	text-decoration: none;
+	transition-duration: .2s;
+}
+input {
+	padding: 8px 12px;
+	border-radius: 3px;
+	border: 1px solid #DDD;
+	transition-duration: .2s;
+	background-color: #FFF;
+}
+input:focus { border-color: #AAA; }
+input[disabled] { background-color: #EEE; }
+input[type=checkbox] {
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+}
